@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Register</title>
+    <style>
+    body{
+        background-color: black;
+        background-image: url("https://c.tenor.com/5RKB-LuSHb0AAAAC/fire.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        color:orangered;
+        text-align: center;
+        font-size: 50px;
+    }
+    h2{
+        color:orangered;
+        text-align: center;
+        font-size: 50px;
+    }
+    form{
+        color:orangered;
+        text-align: center;
+        font-size: 50px;
+    }
+    input.largerCheckbox {
+        width: 40px;
+        height: 40px;
+        accent-color: #e74c3c;
+        color: orangered;
+    }
+    input.largerText {
+        height: 30px;
+        width: 300px;
+        background-color: red;
+        color: orange;
+        font-size: 35px;
+    }
+    input.largerSubmit {
+        height: 130px;
+        width: 300px;
+        font-size: 60px;
+        background-color:red ;
+    }
+    input.largerSubmit:Hover{
+        background-color:darkred ;
+    }
+    input.largerText:Hover{
+        background-color:darkred ;
+    }
+    img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+        height: 300px;
+        width: 600px;
+
+    }
+    </style>
+</head>
+<body>
+<h1>Welcome to the site!</h1>
+<h2>Please enter your information: </h2>
+<form action="/register" method="post">
+  First Name: <input type="text" name="firstName" class="largerText"><br>
+  Last Name: <input type="text" name="lastName" class="largerText"><br>
+  <input type="checkbox" name="rememberMe" class="largerCheckbox">Remember Me<br><br>
+    <input type="submit" value="submit" class="largerSubmit">
+</form>
+<br>
+<img src="https://www.icegif.com/wp-content/uploads/elmo-fire-icegif-1.gif" alt="fire elmo">
+</body>
+</html>
