@@ -1,3 +1,4 @@
+Anthony Coelho: 
 This code was for an assignment in java 3 where we had to create a website that uses thymleaf to get user data and display it later in the program.
 
 The controller used is found in registration-/demo/src/main/java/com/example/demo/controller/ 
